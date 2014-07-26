@@ -11,6 +11,3 @@ def multiples_3_5(number):
     else:
       count += 1
   return total
-
-
-print multiples_3_5(1000)
