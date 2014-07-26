@@ -1,7 +1,7 @@
 def multiples_3_5(number):
   total = 0
   count = 0
-  while count < number:
+  while count < (number + 1):
     if number % 3 == 0:
       total += number
       count += 1
