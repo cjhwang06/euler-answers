@@ -5,7 +5,7 @@ def multiples_3_5(number):
     if number % 3 == 0:
       total += count
       count += 1
-    elif number % 5 ==0:
+    elif number % 5 == 0:
       total += count
       count += 1
     else:
