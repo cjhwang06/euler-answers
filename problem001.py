@@ -3,10 +3,10 @@ def multiples_3_5(number):
   count = 0
   while count < (number + 1):
     if number % 3 == 0:
-      total += number
+      total += count
       count += 1
     elif number % 5 ==0:
-      total += number
+      total += count
       count += 1
     else:
       count += 1
